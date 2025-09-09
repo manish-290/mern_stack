@@ -1,8 +1,8 @@
 :root{
-  --bg:#f7f7fb;
+  --bg:#e0f7fa;
   --card:#fff;
-  --text:#111827;
-  --accent:#4f46e5;
+  --text:#222;
+  --accent:#e91e63;
 }
 *{box-sizing:border-box}
 body{
@@ -24,6 +24,26 @@ body{
   box-shadow:0 10px 30px rgba(2,6,23,0.08);
   text-align:center;
 }
+.hidden{
+    display: none;
+}
+
+#extra-info{
+ transition: opacity 0.3s ease;
+  margin-top: 12px;
+  color: #2563eb; /* blue shade */
+  font-style: italic;
+}
+
+@media (max-width: 480px) {
+  h1 { font-size: 1rem; }
+  .controls button { 
+    padding: 8px 10px; 
+    font-size: 0.9rem;
+  }
+}
+
+
 .avatar{width:96px;height:96px;border-radius:50%;object-fit:cover;margin-bottom:12px}
 h1{font-size:1.25rem;margin:6px 0}
 .bio{color:#6b7280;margin:8px 0 16px}
