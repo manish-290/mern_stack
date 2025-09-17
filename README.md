@@ -12,3 +12,8 @@ i created a todo app using pure vanilla javascript, html and css. i learned abou
 
 # mern_stack
 This is my self study mern session starting from frontend focus only at first with ai api and ui design focus.
+
+#difference in vanilla js and react library
+what i found is the task is huge to take the each element from html to js file in vanilla file 
+which is too much hectic . but react makes it easy combining html and js together and 
+we can build web applications with ease and convenience.
