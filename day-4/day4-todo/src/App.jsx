@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import "./App.css";
 
 
 function App(){
@@ -24,10 +24,14 @@ function App(){
   setTodos(newTodos);
  }
 
+ const deleteTodo = (index)=>{
+  setTodos(todos.filter((_,i)=> i != index));
+ }
+
   return (
-    <div>
+    <div className="app">
       <h1>React Todo App</h1>
-      <div>
+      <div className="input-group">
         <input type="text"
           value={task}
           onChange={(e)=>setTask(e.target.value)}
